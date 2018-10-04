@@ -4,14 +4,30 @@
     font-size: 1cm;
 }
 
-#mainbody{
+/* #mainbody{
     padding-left:10%;
 }
 
 #compresser{
     background: aqua
-}
+} */
 
 area{
     display: none;
+}
+
+.img{
+    float:left;
+}
+
+#components{
+    padding-left: 10%;
+    padding-right: 50px;
+}
+
+#states{
+}
+
+#cycle{
+    vertical-align: middle;
 }
