@@ -4,40 +4,6 @@
     font-size: 1cm;
 }
 
-/* #mainbody{
-    padding-left:10%;
-}
-
-#compresser{
-    background: aqua
-} */
-
-map{
-
-    cursor: pointer;
-}
-
-.img{
-    float:left;
-}
-
-#components{
-    padding-left: 10%;
-    padding-right: 50px;
-}
-
-#states{
-}
-
-#cycle{
-    vertical-align: middle;
-}
-
-.navigation{
-    margin-left: 10%;
-    margin-bottom: 2%;
-}
-
 button{
     font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
     font-size: 1.5em;
@@ -52,6 +18,15 @@ button{
 
 }
 
+.navigation{
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
 #calculation{
     margin-left: 20px;
+}
+
+#cir{
+    margin-left: 10%;
 }
