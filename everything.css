@@ -4,39 +4,6 @@
     font-size: 1cm;
 }
 
-/* #mainbody{
-    padding-left:10%;
-}
-
-#compresser{
-    background: aqua
-} */
-
-map{
-    cursor: pointer;
-}
-
-.img{
-    float:left;
-}
-
-#components{
-    padding-left: 10%;
-    padding-right: 50px;
-}
-
-#states{
-}
-
-#cycle{
-    vertical-align: middle;
-}
-
-.navigation{
-    margin-left: 10%;
-    margin-bottom: 2%;
-}
-
 button{
     font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
     font-size: 1.5em;
@@ -51,13 +18,9 @@ button{
 
 }
 
-#calculation{
-    margin-left: 20px;
-}
-
-#background{
-    background-image: url('./background.jpg');
-    opacity: 0.6;
+.navigation{
+    margin-left: 10%;
+    margin-bottom: 2%;
 }
 
 body::after {
