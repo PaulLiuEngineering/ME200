@@ -1,0 +1,41 @@
+button{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    border-radius: 10px;
+    color: white;
+    text-shadow: -1px -1px 1px rgba(0,0,0,0.8);
+    border: 5px solid transparent;
+    border-bottom-color: rgba(0,0,0,0.35);
+    background: hsla(260, 100%, 50%, 1);
+    cursor: pointer;
+    padding:1%;
+
+}
+
+.button:hover{
+    background: rgb(7, 147, 240);
+}
+
+.background{
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+}
+
+.button{
+    position: absolute;
+}
+
+#home{
+    top: 40%;
+    align-items: center;
+    left:45%;
+}
+
+#calculation{
+    top: 55%;
+    align-items: center;
+    left:40.7%;
+}
+
