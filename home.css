@@ -39,3 +39,17 @@ button{
     left:40.7%;
 }
 
+#components
+{
+    top: 70%;
+    left: 41.4%;
+}
+
+#components_link{
+    width: 20%;
+    height: 50%;
+    position:absolute;
+    top: 25%;
+    vertical-align: center;
+    display: none;
+}

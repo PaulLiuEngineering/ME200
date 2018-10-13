@@ -58,8 +58,11 @@ button{
 #background{
     background-image: url('./background.jpg');
     opacity: 0.6;
+<<<<<<< HEAD
     width:100%;
     height:100%;
+=======
+>>>>>>> 6f10333cebcc7487619792130a60c50de3d149db
 }
 
 body::after {

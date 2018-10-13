@@ -23,7 +23,11 @@ button{
     margin-bottom: 2%;
 }
 
+<<<<<<< HEAD
 /* body::after {
+=======
+body::after {
+>>>>>>> 6f10333cebcc7487619792130a60c50de3d149db
     content: "";
     background: url(background.jpg);
     opacity: 0.5;
@@ -33,4 +37,8 @@ button{
     right: 0;
     position: absolute;
     z-index: -1;   
+<<<<<<< HEAD
   } */
+=======
+  }
+>>>>>>> 6f10333cebcc7487619792130a60c50de3d149db
