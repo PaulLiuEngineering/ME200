@@ -55,22 +55,29 @@ button{
     /* left: 41.4%; */
 }
 
-#components:active{
+/* #components:active{
 
-}
+} */
 
 #components_link{
-    /* width: 20vw;
-    height: 40vh; */
+    width: 20vw;
+    height: 65vh;
     position:absolute;
     top: 25%;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    display: none;
+    display: none; 
 }
 
-#componentM{
+/* #componentM{
     width: 20vw;
     height: 65vh;
+} */
+
+#cycle{
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    left: auto;
 }

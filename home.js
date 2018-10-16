@@ -16,9 +16,12 @@ $(document).ready(function() {
 
             var x = document.getElementById("components_link");
             if (x.style.display == "none") {
-               $('#components_link').fadeIn('slow');
+                $('#cycle').fadeOut('fast');
+                $('#components_link').fadeIn('slow');
+                
             } else {
-                $('#components_link').fadeOut('slow');
+                $('#components_link').fadeOut('fast');
+                $('#cycle').fadeIn('slow');
                 x.style.display = "none";
             }})
         
