@@ -18,10 +18,12 @@ $(document).ready(function() {
             if (x.style.display == "none") {
                 $('#cycle').fadeOut('fast');
                 $('#components_link').fadeIn('slow');
+                $('#components').text('cycles')
                 
             } else {
                 $('#components_link').fadeOut('fast');
                 $('#cycle').fadeIn('slow');
+                $('#components').text('components')
                 x.style.display = "none";
             }})
         
