@@ -30,6 +30,7 @@ button{
   }
 
 .navigation{
+    margin-top:1%;
     margin-left: 10%;
     margin-bottom: 2%;
 }
@@ -44,6 +45,7 @@ body::after {
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: -1;   
+    z-index: -1;
+    height: 130vh;
 
 }

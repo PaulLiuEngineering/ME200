@@ -39,22 +39,25 @@ button{
   }
 
 #home{
-    top: 40%;
+    top: 30%;
     
 }
 
 #calculation{
-    top: 55%;
+    top: 45%;
     /* align-items: center;
     left:40.7%; */
 }
 
 #components
 {
-    top: 70%;
+    top: 60%;
     /* left: 41.4%; */
 }
 
+#cycle_diagram{
+    top: 75%;
+}
 /* #components:active{
 
 } */
