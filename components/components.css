@@ -1,13 +1,3 @@
-/* #first{
-    position: absolute;
-    left: 20%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-   
-} */
-
-
-
 .button{
     margin-right: 1vw;
 }
@@ -30,7 +20,30 @@
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%)
 }
+canvas {
+    margin-left:40%;
 
-.carousel-inner > .item > img {
-    text-align: center;
+}
+
+
+#first{
+    position:absolute;
+    left: 35%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+#second{
+    margin-bottom: 1%;
+    position:absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+#third{
+    position:absolute;
+    left: 65%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
 }
