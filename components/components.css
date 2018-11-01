@@ -1,9 +1,13 @@
-#components_link {
+/* #first{
     position: absolute;
-    left: 40%;
+    left: 20%;
     -webkit-transform: translateX(-50%);
-    transform: translateX(-50%)
-}
+    transform: translateX(-50%);
+   
+} */
+
+
+
 .button{
     margin-right: 1vw;
 }
@@ -27,8 +31,6 @@
     transform: translateX(-50%)
 }
 
-.img::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+.carousel-inner > .item > img {
+    text-align: center;
+}
