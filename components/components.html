@@ -34,62 +34,72 @@
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active">
-                    <button  id = 'first'>
+                    <button id='first'>
                         Front
                     </button>
                 </li>
                 <li data-target="#myCarousel" data-slide-to="1">
-                    <button id = 'second'> 
+                    <button id='second'>
                         Top
                     </button>
                 </li>
                 <li data-target="#myCarousel" data-slide-to="2">
-                    <button id = 'third'>
+                    <button id='third'>
                         Back
                     </button>
                 </li>
             </ol>
             <div class='carousel-inner'>
-                <div class="item active">
-                    <img src='../CERV_front.JPG' alt='CERV2' usemap='#mapp' id='componentF' class='center-block map'>
-                    <div class="carousel-caption">
-                        <!-- <img src='../CERV_front.JPG' alt='CERV2' usemap='#mapp' id='componentF' class='map'> -->
-                        Front
+                <div class = 'center'>
+                    <div class="item active">
+                        <!-- <div class='glyphicon-align-center'> -->
+                        <img src='../CERV_front.JPG' alt='CERV2' usemap='#mapp' id='componentF' class='map center-block'>
+                        <div class="carousel-caption">
+                            <!-- <img src='../CERV_front.JPG' alt='CERV2' usemap='#mapp' id='componentF' class='map'> -->
+                            Front
+                        </div>
+                        <map name="mapp" id='map1'>
+                            <area id='compresser' shape='poly' coords='163,484,161,465,180,433,218,432,260,439,270,467,269,505,262,540,232,556,184,552,161,528'
+                                href='../compressor/compresser.html' class="{strokeWidth:3}">
+                            <area id='circuit' href="../circuit/circuit.html" coords="186,148,281,260" shape='rect'
+                                class="{strokeWidth:3}">
+                            <area id='LED' href="../screen/screen.html" coords="202,68,205,90,274,93,266,72" shape="poly"
+                                class="{strokeWidth:3}">
+                            <area id="damper" href="../damper/damper.html" coords="162,277,245,372" shape="rect" class="{strokeWidth:3}">
+                        </map>
+                        <!-- </div> -->
                     </div>
-                    <map name="mapp" id='map1'>
-                        <area id='compresser' shape='poly' coords='163,484,161,465,180,433,218,432,260,439,270,467,269,505,262,540,232,556,184,552,161,528'
-                            href='../compressor/compresser.html' class="{strokeWidth:3}">
-                        <area id='circuit' href="../circuit/circuit.html" coords="186,148,281,260" shape='rect' class="{strokeWidth:3}">
-                        <area id='LED' href="../screen/screen.html" coords="202,68,205,90,274,93,266,72" shape="poly" class="{strokeWidth:3}">
-                        <area id="damper" href="../damper/damper.html" coords="162,277,245,372" shape="rect" class="{strokeWidth:3}">
-                    </map>
                 </div>
                 <div class="item">
-                    <img src='../CERV_Top.JPG' alt='CERV2' usemap='#mappp' id='componentT' class='map center-block'>
+                    <!-- <div class='center-block'> -->
+                    <img src='../CERV_Top.JPG' alt='CERV2' usemap='#mappp' id='componentT' class='map'>
                     <div class="carousel-caption">
                         Top
                     </div>
                     <map name="mappp" id='map1'>
                     </map>
+                    <!-- </div> -->
                 </div>
                 <div class="item">
-                    <img src='../CERV_back.JPG' alt='CERV2' usemap='#mapppp' id='componentT' class='map center-block'>
+                    <!-- <div class='center-block'> -->
+                    <img src='../CERV_back.JPG' alt='CERV2' usemap='#mapppp' id='componentT' class='map'>
                     <div class="carousel-caption">
                         Back
                     </div>
                     <map name="mapppp" id='map1'>
                     </map>
+                    <!-- </div> -->
                 </div>
             </div>
 
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>
                 <span class="sr-only">Previous</span>
             </a>
             <a class="right carousel-control" href="#myCarousel" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right"></span>
                 <span class="sr-only">Next</span>
-            </a>
+            </a> -->
         </div>
     </div>
 </body>
